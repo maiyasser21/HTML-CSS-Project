@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(237, 233, 227)
+}
+
+.navbar {
+    overflow: hidden;
+
+    background-color: rgb(69, 0, 0);
+    top: 0;
+
+    width: 100%;
+
+}
+
+.image {
+    float: left;
+}
+
+.logo {
+
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+
+}
+
+.navbar a {
+    float: right;
+    text-align: center;
+    padding: 10px;
+    margin-left: 1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navbar a:hover {
+    background-color: rgb(235, 134, 134);
+}
+
+
+.active {
+    background-color: #9d4040;
+}
+.footer{
+    position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+            background:rgb(69, 0, 0);
+}
+.footer a {
+    text-align: center;
+    padding: 10px;
+    margin-left: 1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+
+    .image {
+        float: none;
+        display: block;
+    }
+}
