@@ -100,7 +100,7 @@ img
     to {opacity: 1}
   }
 /* On smaller screens, decrease text size */
-@media screen and (max-width: 500px)
+@media (max-width: 980px)
 {
     .navbar{
         padding: 10px;
