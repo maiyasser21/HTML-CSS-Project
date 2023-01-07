@@ -107,7 +107,7 @@ img
         z-index: 99;
         background-color:aqua; 
         opacity: 1;
-        height: 70%;
+        height: 100%;
     }
     .navbar a {
         float: none;
@@ -124,7 +124,64 @@ img
 @media only screen and (max-width: 500px)
 {
     .text {font-size: 11px}
-}      
+}    
+
+
+.featuredproducts {
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .featuredproducts img{
+    width: 33%;
+  }
+  .price {
+    color: rgb(117, 113, 113);
+    font-size: 22px;
+  }
+  
+  .featuredproducts button {
+    border: none;
+    border-radius: 20px;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:aqua; 
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    font-size: 18px;
+  }
+
+  
+  .featuredproducts button:hover {
+    opacity: 0.7;
+  }
+  .featuredproducts a{
+    text-align: center;
+    
+   
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+  .firstbook {
+    width: 33%;
+    float: left;
+  }
+  .secondbook{
+    width: 33%;
+    float: left;
+  }
+  .thirdbook{
+    width: 33%;
+    float: right;
+  }
+  
 .footer
 {
     position: fixed;
