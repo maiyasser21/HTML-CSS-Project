@@ -4,12 +4,12 @@ body {
 
 .navbar {
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     background-color: rgb(0, 225, 255);
     opacity: 0.7;
     top: 0;
-	left: 0;
-	right: 0;
+	  left: 0;
+	  right: 0;
     width: 100%;
     margin: auto;
     z-index: 99;
@@ -104,6 +104,7 @@ img
 {
     .navbar{
         padding: 10px;
+        position: fixed;
         z-index: 99;
         background-color:aqua; 
         opacity: 1;
@@ -181,19 +182,33 @@ img
     width: 33%;
     float: right;
   }
-  
+  .fourthbook {
+    width: 33%;
+    float: right;
+  }
+  .fifthbook{
+    width: 33%;
+    float: left;
+  }
+  .sixthbook{
+    width: 33%;
+    float: right;
+  }
 .footer
 {
-    position: fixed;
-    padding: 10px 10px 0px 10px;
     overflow: hidden;
+    position: fixed;
+    background-color: rgb(0, 225, 255);
+    opacity: 0.7;
+    padding: 10px 10px 0px 10px;
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
     height: 30px;
-    background-color: rgb(0, 225, 255);
-    opacity: 0.7;
+    margin: auto;
+   
+   
 }
 .footer a
 {
