@@ -35,11 +35,6 @@
 .navbar a:hover {
 background-color: rgb(63, 65, 78);
 }
-
-
-.active {
-background-color: rgb(139, 139, 139);
-}
 * {box-sizing: border-box;}
 
 body {
@@ -230,7 +225,7 @@ body {
   
   .footer h6 {
     text-align: center;
-    margin-top: 0rem;
+    margin: 0em;
     color: white;
     padding: 10px;
     color: rgb(255, 255, 255);

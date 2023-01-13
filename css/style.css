@@ -39,11 +39,6 @@ body {
   background-color: rgb(63, 65, 78);
 }
 
-
-.active {
-  background-color: rgb(139, 139, 139);
-}
-
 * {
   box-sizing: border-box;
 }
