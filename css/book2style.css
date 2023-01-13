@@ -3,48 +3,45 @@ body {
 }
 
 .navbar {
-    overflow: hidden;
-    position: fixed;
-    background-color: rgb(0, 225, 255);
-    opacity: 0.7;
-    top: 0;
-	left: 0;
-	right: 0;
-    width: 100%;
-    margin: auto;
-    z-index: 99;
+  overflow: hidden;
+  position: absolute;
+  background-color: rgb(0, 225, 255);
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: auto;
+  z-index: 99;
 }
 
 .image {
-    float: left;
+  float: left;
 }
 
 .logo {
-
-
-    width: 40px;
-    height: 40px;
-    margin-left: 1em;
+  height: 1em;
+  margin-left: 1em;
 }
 
 .navbar a {
-    float: right;
-    text-align: center;
-    padding: 10px;
-    margin-right: 8em;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 17px;
+  float: right;
+  text-align: center;
+  padding: 0.5em;
+  margin-right: 8em;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1em;
 }
 
 
 .navbar a:hover {
-    background-color: rgb(134, 147, 235);
+background-color: rgb(63, 65, 78);
 }
 
 
 .active {
-    background-color: rgb(134, 147, 235);
+background-color: rgb(139, 139, 139);
 }
 .firstbookcontainer{
     display: inline;
@@ -82,6 +79,28 @@ body {
   
   .desc button:hover {
     opacity: 0.7;
+  }
+  .footer {
+    position: fixed;
+    overflow: hidden;
+    background-color: rgb(0, 225, 255);
+    opacity: 0.7;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2rem;
+    padding-block-end: 0%;
+    z-index: 99;
+  }
+  
+  .footer h6 {
+    text-align: center;
+    margin-top: 0rem;
+    color: white;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
   }
 @media (max-width: 980px)
 {
