@@ -49,14 +49,13 @@ body {
     background: #FFFFFF;
     border-radius: 10px;
     overflow: hidden;
-    display: flex;
-    flex: 1 1 100%;
+    display: inline;
     align-items: stretch;
     box-shadow: 0 0 0px 6px #090b6f85;
   }
   @media (max-width: 980px) {
     .box-form {
-      flex-flow: wrap;
+      display: inline;
       text-align: center;
       align-content: center;
       align-items: center;
